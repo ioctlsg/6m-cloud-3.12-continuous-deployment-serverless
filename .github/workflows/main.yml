@@ -9,7 +9,7 @@ jobs:
     pre-deploy:
         runs-on: ubuntu-latest
         steps:
-            - run: echo " The Job is auto tiggered by a ${{github.actor}}" event."""
+            - run: echo " The Job is auto tiggered by a ${{github.actor}} event."
 
     install-dependencies:
         runs-on: ubuntu-latest
