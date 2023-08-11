@@ -10,8 +10,11 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - run: echo " The Job is auto tiggered by a ${{github.actor}}" event."
+
     install-dependencies:
         runs-on: ubuntu-latest
         steps:
+            - name: Check out repo code
+              uses: actions/checkout@v3
             - name: Run installation of dependencies commands
               run: npm install
