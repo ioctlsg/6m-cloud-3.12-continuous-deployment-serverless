@@ -6,6 +6,9 @@ The main.yml in .github/workflow/ runs 4 pipeline with the 4th to deploy in the 
 
 The tigger to run github action is on push.
 
+index.js - code for the lamada. 
+index.test.js - code for unit-testing for the index.js
+
 
 
 
