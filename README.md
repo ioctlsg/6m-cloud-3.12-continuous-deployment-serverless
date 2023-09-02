@@ -1,4 +1,6 @@
 # serverless 
 
-code that is intended for this CICD.
-https://github.com/su-ntu-ctp/6m-cloud-3.6-cloud-native-application-serverless-i/blob/main/aws-node-http-api-project/index.js
+The main.yml in .github/workflow/ runs 4 pipeline with the 4th to deploy in the AWS lamada. 
+
+
+
